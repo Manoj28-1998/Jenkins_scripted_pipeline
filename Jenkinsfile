@@ -1,6 +1,6 @@
 node {
-    stage('Build') {
-        echo "build is ready"
+    stage('Checkout') {
+        git 'https://github.com/your-username/your-repository.git'
     }
     stage('Test') {
         echo "Test is ready"
